@@ -20,7 +20,7 @@ body{
 }
 
 .first-page{
-    background-image: url("../img/back1.png");
+    background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg");
     background-size: cover;
     height: 100%;
 }
@@ -73,7 +73,7 @@ body{
 }
 
 .second-page{
-    background-image: url("../img/back1.png");
+    background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg");
     background-size: cover;
     height: 100%;
 }
@@ -92,17 +92,19 @@ body{
 }
 
 .img-box{
-    max-width: 500px;
+    /* max-width: 500px; */
+    width: 200px;height: 200px;
 }
 
 .second-page-img{
     border: 1px solid #333;
     border-radius: 50%;
+    height: 100%;
     width: 100%;
 }
 
 .third-page{
-    background-image: url("../img/back1.png");
+    background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg");
     background-size: cover;
     height: 100%;
 }
@@ -135,24 +137,24 @@ body{
     border-radius: 50%;
 }
 
-.green{
-    background-color: green;
+.camel{
+    background-color: #B99470;
 }
-.light-green{
-    background-color: rgb(3, 182, 3);
+.lemon{
+    background-color: #F9EBC7;
 }
-.green{
-    background-color: green;
+.comsik{
+    background-color: #FEFAE0;
 }
-.green{
-    background-color: green;
+.isum{
+    background-color: #5F6F52;
 }
-.light-brown{
-    background-color: rgb(191, 91, 91);
+.olive{
+    background-color: #ADB795;
 }
 
 .fourth-page{
-    background-image: url("../img/back1.png");
+    background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg");
     background-size: cover;
     height: 100%;
 }
@@ -192,6 +194,12 @@ body{
     font-weight: 400;
     font-size: 30px;
     color: #f84646;
+}
+
+.five-page{
+    background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg");
+    background-size: cover;
+    height: 100%;
 }
 
 .swiper-button-prev{
