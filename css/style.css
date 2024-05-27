@@ -3,8 +3,23 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg");
+    background-size: cover;
+    position: relative;
 }
 
+body:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, 0.15);
+}
 
 .swiper{
     height: 100vh;
@@ -20,7 +35,7 @@ body{
 }
 
 .first-page{
-    background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg");
+    /* background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg"); */
     background-size: cover;
     height: 100%;
 }
@@ -38,7 +53,12 @@ body{
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
-    color: #b3b743;
+    color: #c5c946;
+}
+
+p{
+    /* color: #3D642D; */
+    color: #ffffff;
 }
 
 .title{
@@ -47,7 +67,7 @@ body{
     font-size: 50px;
     font-family: "Great Vibes", cursive;
     font-weight: 400;
-    color: #b3b743;
+    color: #c5c946;
 }
 
 .info{
@@ -73,7 +93,7 @@ body{
 }
 
 .second-page{
-    background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg");
+    /* background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg"); */
     background-size: cover;
     height: 100%;
 }
@@ -104,7 +124,7 @@ body{
 }
 
 .third-page{
-    background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg");
+    /* background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg"); */
     background-size: cover;
     height: 100%;
 }
@@ -154,16 +174,17 @@ body{
 }
 
 .fourth-page{
-    background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg");
+    /* background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg"); */
     background-size: cover;
     height: 100%;
 }
 
 .fourth-wrapper{
     display: flex;
+    padding-left: 50px;
     flex-direction: column;
     align-items: start;
-    gap: 30px;
+    gap: 20px;
 }
 
 .last-title{
@@ -178,7 +199,7 @@ body{
 }
 
 .date{
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .schedule-info{
@@ -189,11 +210,22 @@ body{
     max-width: 800px;
 }
 
+.schedule-info-descr{
+    font-size: 26px;
+}
+
 .info-descr{
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-size: 30px;
-    color: #f84646;
+    color: #df5353;
+}
+
+.footnote{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
 }
 
 .five-page{
@@ -238,6 +270,9 @@ body{
     .schedule-info{
         font-size: 18px;
     }
+    .schedule-info-descr{
+    font-size: 24px;
+}
 }
 
 @media screen and (max-width: 775px) {
@@ -260,6 +295,10 @@ body{
     }
     .swiper-button-next{
         padding: 40px;
+    }
+
+    .schedule-info-descr{
+    font-size: 22px;
     }
 }
 
@@ -309,6 +348,13 @@ body{
     }
     .info-descr{
     font-size: 24px;
+    }
+    .schedule-info-descr{
+    font-size: 20px;
+    }
+    .fourth-wrapper{
+        padding: 0;
+        gap: 15px;
     }
 }
 
@@ -368,4 +414,7 @@ body{
     .info-descr{
     font-size: 20px;
     }
+    .schedule-info-descr{
+    font-size: 18px;
+}
 }
