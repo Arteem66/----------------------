@@ -18,7 +18,7 @@ body:before {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color:rgba(0, 0, 0, 0.1);
+	background-color:rgba(255, 255, 255, 0.15);
 }
 
 .swiper{
@@ -54,11 +54,6 @@ body:before {
     font-weight: 400;
     font-style: normal;
     color: #c5c946;
-}
-
-p{
-    /* color: #3D642D; */
-    color: #ffffff;
 }
 
 .title{
@@ -211,27 +206,26 @@ p{
 }
 
 .schedule-info-descr{
-    font-size: 26px;
+    /* color: #26474E; */
+    font-size: 32px;
 }
 
 .info-descr{
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-size: 30px;
-    color: #df5353;
+    color: #B99470;
 }
 
 .footnote{
     font-family: "Great Vibes", cursive;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 26px;
     text-align: center;
 }
 
-.five-page{
-    background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg");
-    background-size: cover;
-    height: 100%;
+.number{
+    color: #B99470;
 }
 
 .swiper-button-prev{
@@ -337,10 +331,16 @@ p{
         font-size: 50px;
     }
     .swiper-button-prev{
-        display: none;
+        /* display: none; */
+        background-color: transparent;
+        color: #B39F7A;
+        padding-left: 15px;
     }
     .swiper-button-next{
-        display: none;
+        background-color: transparent;
+        color: #B39F7A;
+        padding-right: 15px;
+        /* display: none; */
     }
     .color{
         width: 40px;
@@ -415,6 +415,9 @@ p{
     font-size: 20px;
     }
     .schedule-info-descr{
-    font-size: 18px;
-}
+    font-size: 21px;
+    }
+    .footnote{
+    font-size: 22px;
+    }
 }
