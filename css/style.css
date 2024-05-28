@@ -9,7 +9,7 @@ body{
     position: relative;
 }
 
-body:before {
+/* body:before {
 	content: '';
 	display: block;
 	width: 100%;
@@ -20,7 +20,7 @@ body:before {
 	right: 0;
 	bottom: 0;
 	background-color:rgba(176, 176, 176, 0.1);
-}
+} */
 
 .swiper{
     height: 100vh;
