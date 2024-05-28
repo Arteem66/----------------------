@@ -5,6 +5,7 @@ body{
     font-style: normal;
     background-image: url("../img/1614691990_142-p-fon-s-ramkoi-dlya-instagram-216.jpg");
     background-size: cover;
+    background-position: center;
     position: relative;
 }
 
@@ -18,7 +19,7 @@ body:before {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color:rgba(255, 255, 255, 0.1);
+	background-color:rgba(176, 176, 176, 0.1);
 }
 
 .swiper{
@@ -176,7 +177,7 @@ body:before {
 
 .fourth-wrapper{
     display: flex;
-    padding-left: 50px;
+    margin-left: 50px;
     flex-direction: column;
     align-items: start;
     gap: 20px;
@@ -354,7 +355,7 @@ body:before {
     font-size: 20px;
     }
     .fourth-wrapper{
-        padding: 0;
+        margin: 0;
         gap: 15px;
     }
 }
@@ -408,7 +409,7 @@ body:before {
         gap: 15px;
     }
     .fourth-wrapper{
-        gap: 10px;
+        gap: 15px;
     }
     .wrapper-row{
         gap: 15px;
