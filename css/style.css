@@ -371,7 +371,8 @@ body:before {
         line-height: 90%;
     }
     .date{
-        font-size: 16px;
+        padding-top: 2px;
+        font-size: 18px;
     }
     .schedule-info{
         font-size: 16px;
@@ -407,13 +408,14 @@ body:before {
         gap: 15px;
     }
     .fourth-wrapper{
-        gap: 5px;
+        gap: 10px;
     }
     .wrapper-row{
         gap: 15px;
     }
     .info-descr{
-    font-size: 24px;
+    font-size: 26px;
+    line-height: 90%;
     }
     .schedule-info-descr{
     font-size: 21px;
